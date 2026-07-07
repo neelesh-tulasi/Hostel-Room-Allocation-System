@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Dashboard</title>
+</head>
+<body>
+
+<h1>Hostel Room Allocation System</h1>
+<hr>
+
+<h2>Welcome, {{ name }} 👋</h2>
+
+<h3>Student Details</h3>
+
+<table border="1" cellpadding="10">
+
+<tr>
+    <td><b>Name</b></td>
+    <td>{{ name }}</td>
+</tr>
+
+<tr>
+    <td><b>Roll Number</b></td>
+    <td>{{ rollno }}</td>
+</tr>
+
+<tr>
+    <td><b>Department</b></td>
+    <td>{{ department }}</td>
+</tr>
+
+<tr>
+    <td><b>Year</b></td>
+    <td>{{ year }}</td>
+</tr>
+
+<tr>
+    <td><b>Gender</b></td>
+    <td>{{ gender }}</td>
+</tr>
+
+<tr>
+    <td><b>Email</b></td>
+    <td>{{ email }}</td>
+</tr>
+
+<tr>
+    <td><b>Phone</b></td>
+    <td>{{ phone }}</td>
+</tr>
+
+</table>
+
+<br>
+
+<button>Apply for Hostel</button>
+<button>View Room</button>
+<a href="/logout">
+    <button>Logout</button>
+</a>
+
+</body>
+</html>
